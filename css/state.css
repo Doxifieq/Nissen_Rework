@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1500px) {
+    .rellax.village {
+        height: 300px;
+        width: 600px;
+    }
+
+    .rellax.tree {
+        height: 175px;
+        width: 575px;
+        bottom: 18%;
+    }
+
+    .rellax.moon {
+        height: 500px;
+        width: 500px;
+    }
+
+    .rellax.santa {
+        height: 200px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .rellax.village {
+        height: 250px;
+        width: 500px;
+    }
+
+    .rellax.tree {
+        height: 125px;
+        width: 475px;
+        bottom: 16%;
+    }
+
+    .rellax.moon {
+        height: 400px;
+        width: 400px;
+    }
+
+    .rellax.santa {
+        height: 150px;
+        width: 300px;
+    }
+
+    .wrapper.grid {
+        grid-template-columns: 200px 200px;
+    }
+
+    .media-object-wrapper {
+        grid-template-columns: 300px;
+        grid-gap: 0;
+    }
+
+    .media-object-wrapper.reverse {
+        grid-template-columns: 300px;
+        grid-gap: 0;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .rellax.village {
+        height: 175px;
+        width: 350px;
+        bottom: 7%;
+    }
+
+    .rellax.tree {
+        height: 100px;
+        width: 350px;
+        bottom: 12%;
+    }
+
+    .rellax.moon {
+        height: 400px;
+        width: 400px;
+    }
+
+    .rellax.santa {
+        height: 150px;
+        width: 300px;
+    }
+
+    .wrapper.grid {
+        grid-template-columns: 200px;
+    }
+}

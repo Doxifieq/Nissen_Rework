@@ -1,0 +1,37 @@
+.wrapper {
+    position: relative;
+    margin: 10em auto;
+    width: 80%;
+}
+
+.wrapper.margin-5em-auto {
+    margin: 5em auto;
+    width: 100%;
+}
+
+.wrapper.grid {
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-evenly;
+    grid-gap: 6em;
+    display: grid;
+}
+
+.wrapper.text-center {
+    text-align: center;
+}
+
+.media-object-wrapper {
+    grid-template-columns: 500px 300px;
+    justify-content: center;
+    position: relative;
+    grid-gap: 6em;
+    display: grid;
+}
+
+.media-object-wrapper.reverse {
+    grid-template-columns: 300px 500px;
+}
+
+.media-object-wrapper img {
+    width: 100%;
+}

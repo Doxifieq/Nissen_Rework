@@ -1,0 +1,174 @@
+.header.nav {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.header.logo {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.header.logo img {
+    transform: rotateZ(-15deg);
+    height: 40px;
+    width: 40px;
+}
+
+.header.logo p {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.7em;
+    color: white;
+}
+
+.hero {
+    background-color: #005291;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero img {
+    position: absolute;
+}
+
+.rellax.moon {
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    right: 0;
+    left: 0;
+    bottom: 22em;
+}
+
+.rellax.santa {
+    margin: 0 auto;
+    height: 250px;
+    width: 500px;
+    right: 0;
+    left: 0;
+    bottom: 33em;
+}
+
+.rellax.tree {
+    margin: 0 auto;
+    height: 250px;
+    width: 750px;
+    right: 0;
+    left: 0;
+    bottom: 20%;
+}
+
+.rellax.village {
+    margin: 0 auto;
+    height: 400px;
+    width: 800px;
+    right: 0;
+    left: 0;
+    bottom: 2em;
+}
+
+.rellax.snow {
+    height: 15%;
+    width: 100%;
+    bottom: 0;
+}
+
+.rellax.mountain-1 {
+    height: auto;
+    width: 100%;
+    bottom: 0;
+}
+
+.rellax.mountain-2 {
+    object-fit: cover;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    bottom: -10em;
+}
+
+.rellax.mountain-3 {
+    object-fit: cover;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+}
+
+.snowflake-about-1 {
+    position: absolute !important;
+    width: 50px !important;
+    left: 25%;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-about-2 {
+    position: absolute !important;
+    width: 50px !important;
+    left: 70%;
+    bottom: 25%;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-media-1 {
+    position: absolute !important;
+    width: 50px !important;
+    bottom: 100%;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-media-2 {
+    position: absolute !important;
+    width: 50px !important;
+    left: 30%;
+    bottom: 10%;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-media-3 {
+    position: absolute !important;
+    width: 50px !important;
+    right: 0;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-media-reverse-1 {
+    position: absolute !important;
+    width: 50px !important;
+    left: 32%;
+    top: 7%;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-media-reverse-2 {
+    position: absolute !important;
+    width: 50px !important;
+    right: 20%;
+    bottom: 0;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-footer-1 {
+    position: absolute !important;
+    width: 50px !important;
+    right: 30%;
+    top: 90%;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.snowflake-footer-2 {
+    position: absolute !important;
+    width: 50px !important;
+    left: 25%;
+    top: 80%;
+    animation: snowflake-animation 3s infinite alternate;
+}
+
+.active {
+    background-color: black;
+    transition: 0.5s;
+}

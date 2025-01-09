@@ -1,0 +1,4 @@
+@keyframes snowflake-animation {
+    from { scale: 1 }
+    to { scale: 0.5 }
+}
